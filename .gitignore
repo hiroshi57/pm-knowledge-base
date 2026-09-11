@@ -4,3 +4,9 @@ Thumbs.db
 *~
 .idea/
 .vscode/
+
+# node / vitepress
+node_modules/
+.vitepress/dist/
+.vitepress/cache/
+.vercel/
