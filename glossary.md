@@ -40,15 +40,15 @@
 | PMBOK | Project Management Body of Knowledge | PMI発行のプロジェクトマネジメント知識体系ガイド |
 | PMI | Project Management Institute | PMBOK発行元の非営利団体 |
 | PMP | Project Management Professional | PMI認定のプロジェクトマネージャー資格 |
-| ECO | Examination Content Outline | PMP試験の出題範囲を定義する文書（PMBOKガイドとは別物、[09.2](standard/09_scope_and_references.md)参照） |
+| ECO | Examination Content Outline | PMP試験の出題範囲を定義する文書（PMBOKガイドとは別物、[09.2](standard/07_scope_and_references.md)参照） |
 | WBS | Work Breakdown Structure | 作業を階層的に分解した構造図 |
 | QCD | Quality, Cost, Delivery | 品質・コスト・納期の3制約 |
-| EVM | Earned Value Management | 出来高（アーンドバリュー）を用いた進捗・コスト統合管理手法。計算式は[10_templates.md](merged/README.md)参照 |
-| PV / EV / AC | Planned Value / Earned Value / Actual Cost | EVMの3大基礎指標。詳細は[10_templates.md](merged/README.md) |
+| EVM | Earned Value Management | 出来高（アーンドバリュー）を用いた進捗・コスト統合管理手法。計算式は[merged/（統合テンプレート）](merged/README.md)参照 |
+| PV / EV / AC | Planned Value / Earned Value / Actual Cost | EVMの3大基礎指標。詳細は[merged/（統合テンプレート）](merged/README.md) |
 | SV / CV | Schedule Variance / Cost Variance | スケジュール差異・コスト差異 |
 | SPI / CPI | Schedule/Cost Performance Index | スケジュール効率指数・コスト効率指数 |
 | EAC / ETC | Estimate at Completion / Estimate to Complete | 完成時総コスト見積り／残作業コスト見積り |
-| RACI | Responsible, Accountable, Consulted, Informed | 役割・責任の明確化フレームワーク。サンプルは[10_templates.md](merged/README.md) |
+| RACI | Responsible, Accountable, Consulted, Informed | 役割・責任の明確化フレームワーク。サンプルは[merged/（統合テンプレート）](merged/README.md) |
 | CCB | Change Control Board | 変更管理委員会（上表参照） |
 
 ## 本資料集内リンク早見表
@@ -59,11 +59,11 @@
 - プロセス基準表 → [04_process_reference.md](standard/04_process_reference.md)
 - 成功評価の二軸 → [05_success_criteria.md](standard/05_success_criteria.md)
 - AIという現代的テーマ → [06_ai_contemporary_theme.md](standard/06_ai_contemporary_theme.md)
-- 育成カリキュラム → [07_training_curriculum.md](training_curriculum.md)
-- 適用範囲・一次情報・倫理規定 → [09_scope_and_references.md](standard/09_scope_and_references.md)
-- 実践テンプレート集（EVM計算例・RACI等） → [10_templates.md](merged/README.md)
-- アジャイル／ハイブリッドとの対応 → [11_agile_hybrid_bridge.md](standard/11_agile_hybrid_bridge.md)
-- PMBOKへの批判的視点 → [12_critical_perspectives.md](standard/12_critical_perspectives.md)
+- 育成カリキュラム → [training_curriculum.md](training_curriculum.md)
+- 適用範囲・一次情報・倫理規定 → [07_scope_and_references.md](standard/07_scope_and_references.md)
+- 実践テンプレート集（EVM計算例・RACI等） → [merged/（統合テンプレート）](merged/README.md)
+- アジャイル／ハイブリッドとの対応 → [08_agile_hybrid_bridge.md](standard/08_agile_hybrid_bridge.md)
+- PMBOKへの批判的視点 → [09_critical_perspectives.md](standard/09_critical_perspectives.md)
 - 敵対的レビューのタスク管理 → [task-lists.md](task-lists.md)
 - 内製チーム向け実践層 → [practice/](practice/)（第1部〜第8部）
 - 重複統合ツール（良い方を採用） → [merged/](merged/README.md)
@@ -73,18 +73,18 @@
 
 | 用語 | 一言解説 | 参照 |
 |------|----------|------|
-| 社会技術システム | 動くのはソフト単体でなく業務手順・組織・制度を含む全体。4層で見る | practice/00 |
-| SoR / SoE | 記録のシステム（正確・決めてから作る）／関わりのシステム（使いやすさ・作ってから決める）。機能単位 | practice/00 |
+| 社会技術システム | 動くのはソフト単体でなく業務手順・組織・制度を含む全体。4層で見る | practice/01 |
+| SoR / SoE | 記録のシステム（正確・決めてから作る）／関わりのシステム（使いやすさ・作ってから決める）。機能単位 | practice/01 |
 | アウトプット / アウトカム | 作ったもの／それによって起きた変化。約束はアウトプット・判定はアウトカム | [merged/success_evaluation.md](merged/success_evaluation.md) |
-| Complicated / Complex | 込み入っている（専門知識と時間で分かる）／複雑（事後にしか説明できない・相互作用） | practice/10 |
-| complect（絡み） | 独立していたものを編み込み分離不能にする行為。複雑さの源 | practice/10 |
+| Complicated / Complex | 込み入っている（専門知識と時間で分かる）／複雑（事後にしか説明できない・相互作用） | practice/02 |
+| complect（絡み） | 独立していたものを編み込み分離不能にする行為。複雑さの源 | practice/02 |
 | デシジョンテーブル / 状態遷移表 | 条件の組合せ／状態×イベントを機械的に洗い、空白＝例外を晒す | [merged/risk_register.md](merged/risk_register.md) |
 | 兆候（リスク） | 確率・影響と別に「近づいたと判断できる観測可能な事象」。定例5分で回す鍵 | [merged/risk_register.md](merged/risk_register.md) |
 | DACI | Driver（決められる状態を作る）とApprover（決める）を分ける意思決定枠組み | [merged/raci_daci.md](merged/raci_daci.md) |
 | ステークホルダーキューブ | 権力×関心に「態度（賛成/反対/不明）」を足した3軸 | [merged/stakeholder.md](merged/stakeholder.md) |
 | 情報ラジエーター | 聞かなくても見える状態。詰問の材料にすると実態を表さなくなる | [merged/communication.md](merged/communication.md) |
-| Blameless Postmortem | 「なぜ確認しなかったか」でなく「確認せず進むのが自然に見えたのはなぜか」を問う | practice/50 |
+| Blameless Postmortem | 「なぜ確認しなかったか」でなく「確認せず進むのが自然に見えたのはなぜか」を問う | practice/06 |
 | プレモーテム | 「失敗した」と仮定して原因を挙げる事前検死。個人で書いてから読み上げる | [merged/risk_register.md](merged/risk_register.md) |
-| 撤退基準 | こうなったら止める/作り変える条件。着手前に決める（測れる・期限・発動者・発動後の行動） | practice/50 |
-| 縮退運用 | 止まっている間、現場が業務を続ける手段。機能要件に出ないが要件 | practice/40 |
+| 撤退基準 | こうなったら止める/作り変える条件。着手前に決める（測れる・期限・発動者・発動後の行動） | practice/06 |
+| 縮退運用 | 止まっている間、現場が業務を続ける手段。機能要件に出ないが要件 | practice/05 |
 | 静かな失敗 | 予定通り・予算内で完了し、しかし何も変わらない失敗（内製特有） | [merged/success_evaluation.md](merged/success_evaluation.md) |

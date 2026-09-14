@@ -28,17 +28,17 @@ pm-knowledge-base/
 │   ├── 04_process_reference.md     プロセス基準表
 │   ├── 05_success_criteria.md      成功の二軸
 │   ├── 06_ai_contemporary_theme.md AIという現代的テーマ
-│   ├── 09_scope_and_references.md  適用範囲・一次情報・倫理
-│   ├── 11_agile_hybrid_bridge.md   アジャイル/ハイブリッド
-│   └── 12_critical_perspectives.md 批判的視点
+│   ├── 07_scope_and_references.md  適用範囲・一次情報・倫理
+│   ├── 08_agile_hybrid_bridge.md   アジャイル/ハイブリッド
+│   └── 09_critical_perspectives.md 批判的視点
 ├── practice/              ← 実践層（内製教科書 全42章）
-│   ├── 00_positioning.md       第1部 立ち位置
-│   ├── 10_what_to_build.md     第2〜4部 何を作るか/見えないもの
-│   ├── 20_planning.md          第5部 計画
-│   ├── 30_people.md            第6部 人と関係者
-│   ├── 40_run.md               第7部 動かし続ける
-│   ├── 50_failure_closure.md   第8部 失敗と終わり
-│   └── 90_figures.md           主要図表（ASCII）
+│   ├── 01_positioning.md       第1部 立ち位置
+│   ├── 02_what_to_build.md     第2〜4部 何を作るか/見えないもの
+│   ├── 03_planning.md          第5部 計画
+│   ├── 04_people.md            第6部 人と関係者
+│   ├── 05_run.md               第7部 動かし続ける
+│   ├── 06_failure_closure.md   第8部 失敗と終わり
+│   └── 07_figures.md           主要図表（ASCII）
 └── merged/                ← 統合ツール（重複を良い方に統合）
     ├── success_evaluation.md   成果/プロセス二軸＋アウトカム
     ├── raci_daci.md            RACI＋DACI
@@ -49,11 +49,11 @@ pm-knowledge-base/
 ```
 
 ## 使い方（役割別）
-- **新任PM／PMO** → standard/09 → 01 → 02 → merged/success_evaluation → practice/00
-- **内製プロダクトのPM** → practice/00 → practice/10（第3・4部が中心）→ merged/ の各ツール
-- **PMP受験** → standard/09 → 01 → 02 → 03 → 04（要検証マーカーに注意）
+- **新任PM／PMO** → standard/07（適用範囲）→ 01 → 02 → merged/success_evaluation → practice/01
+- **内製プロダクトのPM** → practice/01 → practice/02（第3・4部が中心）→ merged/ の各ツール
+- **PMP受験** → standard/07（適用範囲）→ 01 → 02 → 03 → 04（要検証マーカーに注意）
 - **研修設計** → training_curriculum.md を土台に、standard/02・merged/・practice/ を教材配布
-- **炎上中／振り返り** → practice/50 → merged/risk_register → standard/05
+- **炎上中／振り返り** → practice/06 → merged/risk_register → standard/05
 
 ## 出典
 - PMBOK第8版資料集（社内研修キット、2026-08作成）

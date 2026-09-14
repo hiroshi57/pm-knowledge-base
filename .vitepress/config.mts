@@ -19,7 +19,7 @@ export default defineConfig({
     nav: [
       { text: 'ホーム', link: '/' },
       { text: '標準層(PMBOK)', link: '/standard/01_overview_history' },
-      { text: '実践層(内製)', link: '/practice/00_positioning' },
+      { text: '実践層(内製)', link: '/practice/01_positioning' },
       { text: '統合ツール', link: '/merged/README' },
       { text: '対応表', link: '/CROSSWALK' }
     ],
@@ -45,22 +45,22 @@ export default defineConfig({
           { text: '04 プロセス基準表', link: '/standard/04_process_reference' },
           { text: '05 成功の二軸', link: '/standard/05_success_criteria' },
           { text: '06 AIという現代的テーマ', link: '/standard/06_ai_contemporary_theme' },
-          { text: '09 適用範囲・一次情報・倫理', link: '/standard/09_scope_and_references' },
-          { text: '11 アジャイル/ハイブリッド', link: '/standard/11_agile_hybrid_bridge' },
-          { text: '12 批判的視点', link: '/standard/12_critical_perspectives' }
+          { text: '07 適用範囲・一次情報・倫理', link: '/standard/07_scope_and_references' },
+          { text: '08 アジャイル/ハイブリッド', link: '/standard/08_agile_hybrid_bridge' },
+          { text: '09 批判的視点', link: '/standard/09_critical_perspectives' }
         ]
       },
       {
         text: '実践層 — 内製チーム向け教科書',
         collapsed: false,
         items: [
-          { text: '00 立ち位置(第1部)', link: '/practice/00_positioning' },
-          { text: '10 何を作るか/見えないもの(第2〜4部)', link: '/practice/10_what_to_build' },
-          { text: '20 計画する(第5部)', link: '/practice/20_planning' },
-          { text: '30 人と関係者(第6部)', link: '/practice/30_people' },
-          { text: '40 動かし続ける(第7部)', link: '/practice/40_run' },
-          { text: '50 失敗と終わり(第8部)', link: '/practice/50_failure_closure' },
-          { text: '90 主要図表(ASCII)', link: '/practice/90_figures' }
+          { text: '01 立ち位置(第1部)', link: '/practice/01_positioning' },
+          { text: '02 何を作るか/見えないもの(第2〜4部)', link: '/practice/02_what_to_build' },
+          { text: '03 計画する(第5部)', link: '/practice/03_planning' },
+          { text: '04 人と関係者(第6部)', link: '/practice/04_people' },
+          { text: '05 動かし続ける(第7部)', link: '/practice/05_run' },
+          { text: '06 失敗と終わり(第8部)', link: '/practice/06_failure_closure' },
+          { text: '07 主要図表(ASCII)', link: '/practice/07_figures' }
         ]
       },
       {

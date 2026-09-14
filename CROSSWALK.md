@@ -29,11 +29,11 @@
 | コミュニケーション | 10.3 計画表 | 第32章 報告・透明性 | **merged/communication** |
 | ステークホルダー | 10.4 パワー×関心 | 第31章 キューブ（態度軸） | **merged/stakeholder** |
 | リスク | 10.5 登録簿 | 第22・27章 例外・兆候・プレモーテム | **merged/risk_register** |
-| アジャイル/ハイブリッド | 11 橋渡し | 第3章 進め方の選択 | standard 11 + practice/00 |
-| 要件・スコープ | （プロセスとして言及） | 第3部・第4部（本書の中心） | practice/10 |
-| 運用・引き継ぎ | （言及薄い） | 第36・41章 | practice/40・50 |
-| 失敗・学習 | （言及薄い） | 第38・39・40章 | practice/50 |
-| 批判的視点 | 12 | 第42章 それでも計画する価値 | standard 12 + practice/50 |
+| アジャイル/ハイブリッド | 08 橋渡し | 第3章 進め方の選択 | standard 08 + practice/01 |
+| 要件・スコープ | （プロセスとして言及） | 第3部・第4部（本書の中心） | practice/02 |
+| 運用・引き継ぎ | （言及薄い） | 第36・41章 | practice/05・06 |
+| 失敗・学習 | （言及薄い） | 第38・39・40章 | practice/06 |
+| 批判的視点 | 09 | 第42章 それでも計画する価値 | standard 09 + practice/06 |
 
 ## 2. 重複箇所の統合判断（良い方を残す）
 
@@ -50,11 +50,17 @@
 
 | 元（pmbok-materials） | 新（pm-knowledge-base） | 備考 |
 |---|---|---|
-| 01〜06, 09, 11, 12 | standard/ に同名でコピー | 内部リンクはそのまま有効 |
+| 01〜06 | standard/01〜06（同番号） | そのまま |
+| 09_scope_and_references.md | **standard/07**_scope_and_references.md | 連番化（旧09→07） |
+| 11_agile_hybrid_bridge.md | **standard/08**_agile_hybrid_bridge.md | 連番化（旧11→08） |
+| 12_critical_perspectives.md | **standard/09**_critical_perspectives.md | 連番化（旧12→09） |
 | 07_training_curriculum.md | training_curriculum.md（ルート） | 実践層も参照するため昇格 |
 | 08_glossary.md | glossary.md（ルート） | 内製教科書の実務用語を追記して統合 |
 | **10_templates.md** | **merged/ に分割・強化** | 5テンプレを主題ごとに統合。10単体は廃止 |
 | task-lists.md | task-lists.md | PMBOK側の要検証タスク管理を継承 |
+| （内製教科書 全42章） | **practice/01〜07**（第1〜8部＋図表） | 8部＋序終章を7ファイルに凝縮し連番化 |
+
+> **番号の整理**：standard は 01〜09、practice は 01〜07 の連番に統一（元キットの欠番 07/08/10 と、practice の 00/10/20…の飛び番号を解消）。
 
 ## 4. 残課題（要検証の継承）
-PMBOK標準層は第8版の一部（7領域の名称・40プロセスの詳細）が公式ガイド未照合の `要検証` を含む（[task-lists.md](task-lists.md)・[standard/09](standard/09_scope_and_references.md)）。研修投入前に公式ガイドで照合しマーカーを外すこと。実践層は特定フレームワークの導入手順書ではないため、標準層のテーラリング指針と併用する。
+PMBOK標準層は第8版の一部（7領域の名称・40プロセスの詳細）が公式ガイド未照合の `要検証` を含む（[task-lists.md](task-lists.md)・[standard/07](standard/07_scope_and_references.md)）。研修投入前に公式ガイドで照合しマーカーを外すこと。実践層は特定フレームワークの導入手順書ではないため、標準層のテーラリング指針と併用する。
