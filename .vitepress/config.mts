@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   lang: 'ja-JP',
   title: 'PM Knowledge Base',
   description: 'PMBOK第8版 × 内製チーム向け実践 統合ナレッジベース',
@@ -81,4 +82,6 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/hiroshi57/pm-knowledge-base' }
     ]
   }
-})
+  },
+  mermaid: { theme: 'default' }
+}))
