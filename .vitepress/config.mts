@@ -81,7 +81,6 @@ export default withMermaid(defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/hiroshi57/pm-knowledge-base' }
     ]
-  }
   },
   mermaid: { theme: 'default' }
 }))
